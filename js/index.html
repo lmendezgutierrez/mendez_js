@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JavaScript</title>
+    <link rel="shortcut icon" href="./../img/img3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/style.css">
+
+</head>
+
+<body>
+<header class="hero">
+    <nav class="nav container">
+        <div class="nav_logo">
+            <h2 class="nav_title">Tata Rocks</h2>
+        </div>
+
+
+        <ul class="nav_link nav__link--menu"></ul>
+        <li class="nav_items">
+            <a href="#" class="nav_links">Inicio</a>
+        </li>
+
+        <li class="nav_items">
+            <a href="#" class="nav_links">Contacto</a>
+        </li>
+
+        <li class="nav_items">
+            <a href="#" class="nav_links">Ubicación</a>
+        </li>
+
+        <img src="./../img/close.svg" alt="" class="nav_close">
+    </ul>
+
+    <div class="nav_menu">
+        <img src="./../img/menu.svg" alt="" class="nav_img">
+    </div>
+    </nav>
+
+<section class="hero_container container">
+<h1 class="hero_title">Somos la tienda de dulces más increíble que puedes tener</h1>
+<p class="hero_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente in veniam doloremque similique ut at officiis ratione repudiandae, quod quos!</p>
+<a href="#" class="cta">Realiza aquí tu pedido</a>
+</section>
+</header>
+
+<!------------------------------------------------->
+<!------------------Products----------------------->
+
+<main>
+<section class="products">
+    <div class="products_container container">
+        <img src="./../img/left-arrow.svg" alt="" class="products_arrow" id="before">
+
+        <!----------------productos1------------------------->
+        <section class="products_body products_body--show" data-id="1">
+        <div class="products_texts">
+            <h2  class="subtitle">Lemon Glass</h2>
+            <p class="description_review">Suave berlina rellena con crema de pie de limón con cobertura de ganach son sutil sabor a limón</p>
+    </div>
+
+<figure class="products_picture">
+    <img src="./../img/img1.jpg" alt="" class="products_img">
+</figure>
+</section>
+
+<!---------------productos2-------------------------->
+<section class="products_body" data-id="2">
+    <div class="products_texts">
+        <h2  class="subtitle">Roles de Canela</h2>
+        <p class="description_review">Suave berlina rellena con crema de pie de limón con cobertura de ganach son sutil sabor a limón</p>
+</div>
+
+<figure class="products_picture">
+<img src="./../img/img2.jpg" alt="" class="products_img">
+</figure>
+</section>
+
+<!-----------------productos3------------------------>
+<section class="products_body" data-id="3">
+    <div class="products_texts">
+        <h2  class="subtitle">Cookie de Chocolate</h2>
+        <p class="description_review">Suave berlina rellena con crema de pie de limón con cobertura de ganach son sutil sabor a limón</p>
+</div>
+
+<figure class="products_picture">
+<img src="./../img/img11.jpg" alt="" class="products_img">
+</figure>
+</section>
+
+        <img src="./../img/right-arrow.svg" alt="" class="products_arrow" id="next">
+    </div>
+
+</section>
+
+
+<!------------------------------------------------->
+<!-----------------contactos----------------------->
+    <section class="container about">
+        <h2 class="subtitle">¿Cómo contactarnos?</h2>
+        <p class="about_paragraph">Encuentra lo que necesitas a través de nuestros canales, estamos para atender todas tus consultas.</p>
+
+        <div class="about_main">
+            <article class="about_icons">
+                <img src="./../img/whatsapp.svg" alt="" class="about_icon">
+                <h3 class="about_title">Whatsapp</h3>
+                <p class="about_paragraph">Comunícate con nosotros.</p>
+            </article>
+
+            <article class="about_icons">
+                <img src="./../img/instagram.svg" alt="" class="about_icon">
+                <h3 class="about_title">Instagram</h3>
+                <p class="about_paragraph">Revisa nuestra cuenta en Instragram.</p>
+            </article>
+
+            <article class="about_icons">
+                <img src="./../img/facebook.svg" alt="" class="about_icon">
+                <h3 class="about_title">Facebook</h3>
+                <p class="about_paragraph">Revisa nuestras publicaciones en Facebook.</p>
+            </article>
+
+        </div>
+    </section>
+
+
+ <!-------------------------------->   
+
+<section class="container_contador container">
+    <h2 class="subtitle">¡Te queda poco tiempo para disfrutar de nuestros descuentos!</h2>
+    <p class="about_paragraph">CONTADOR</p>
+
+        <div class="about_contador">
+        <span id="valor">0</span>
+        <button class="boton disminuir">Disminuir</button>
+        <button class="boton resetear">Reset</button>
+        <button class="boton aumentar">Aumentar</button>
+
+</div>
+</section>
+
+</main>
+
+<script src="./../js/main.js"></script>
+</body>
+</html>
